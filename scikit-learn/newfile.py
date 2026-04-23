@@ -12,7 +12,7 @@ x = df.iloc[:,1:8]
 #creating the target 
 y = df.iloc[:,0]
 
-x = pd.get_dummies(x)
+x = pd.get_dummies(x) # get_dummies() is used for 
 
 x_train ,x_test ,y_train ,y_test = train_test_split(x ,y ,test_size = 0.2 ,random_state = 0) 
 
